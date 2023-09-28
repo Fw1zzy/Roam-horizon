@@ -12,7 +12,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text=[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-semibold cursor-pointer text=[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
           >
             <a className={`#${nav.id}`}>
               {nav.title}
@@ -33,7 +33,7 @@ const Navbar = () => {
       </div>
 
       <div className={`${toggle ? 'flex' : 'hidden'} 
-      bg-green-gradient absolute top-0 right-0 p-7 my-2 min-w-[140px]   rounded-md sidebar flex-col z-[10]
+      bg-green-gradient absolute p-10 my-2 w-full rounded-md sidebar flex-col z-[98]
       `}> 
 
       <ul className="list-none flex flex-col justify-center items-center mt-[3rem]">
@@ -47,7 +47,7 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-            </ul>
+      </ul>
             <button type="button" className=
             "bg-white text-black py-2 px-4 rounded-3xl font-poppins font-normal flex flex-col justify-center items-center mt-8"
             >Register Now</button>

@@ -6,8 +6,8 @@ const Trending = () => {
   return (
     <section className={`${styles.paddingY} mx-10 flex flex-row justify-start items-center max-sx:flex-col`}>
 
-      <div className={`${layout.sectionInfo}`} >
-        <div className="bg-green-gradient rounded-xl p-6 w-[600px] mb-8">
+      <div className={`${layout.sectionInfo} mr-10 icon`} >
+        <div className="bg-green-gradient rounded-xl p-6 w-[600px] mb-8 max-sx:w-full max-sx:flex flex-col">
           <h1 className={`${styles.heading3} text-white mt-4`}>Trending</h1>
           <p className="font-poppins max-w-full max-sx:max-w-full text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores possimus expedita doloribus molestias at error ipsa facere, ex, sapiente architecto exercitationem nemo. Fuga voluptate reiciendis qui quis suscipit iusto est.</p>
           <button className="outline-0 border-none text-green-900 w-[150px] bg-white font-poppins mt-10 mb-4 px-6 py-3 max-sx:mb-10">View More</button>

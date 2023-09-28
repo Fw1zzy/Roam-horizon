@@ -11,63 +11,63 @@ const Exclusives = () => {
       <div className="exclusives mt-8 mx-auto">
 
         <div className="exclusives_div">
-          <img src={image1} className="exclusives_img"/>
+          <img src={image1} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div">
-          <img src={image2} className="exclusives_img"/>
+          <img src={image2} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div">
-          <img src={image3} className="exclusives_img"/>
+          <img src={image3} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div">
-          <img src={image4} className="exclusives_img"/>
+          <img src={image4} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div">
-          <img src={image5} className="exclusives_img"/>
+          <img src={image5} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div max-xs:hidden">
-          <img src={image1} className="exclusives_img"/>
+          <img src={image1} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div max-xs:hidden">
-          <img src={image2} className="exclusives_img"/>
+          <img src={image2} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div max-xs:hidden">
-          <img src={image3} className="exclusives_img"/>
+          <img src={image3} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
           </span>
         </div>
         <div className="exclusives_div max-xs:hidden">
-          <img src={image4} className="exclusives_img"/>
+          <img src={image4} className="exclusives_img icon"/>
           <span className="exclusives_span">
             <h3 className="font-poppins text-[20px] font-semibold">Place</h3>
             <p className="font-poppins text-[15px] font-semibold">Starts @ $250</p>
