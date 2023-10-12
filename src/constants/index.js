@@ -2,19 +2,19 @@ import { philippines, newYork, paris, newDelhi, dubai, heart, wallet, people, in
 
 export const navLinks = [
   {
-    id: "home",
+    id: "#home",
     title: "Home",
   },
   {
-    id: "destinations",
+    id: "#destinations",
     title: "Destinations",
   },
   {
-    id: "about",
+    id: "#about",
     title: "About Us",
   },
   {
-    id: "contacts",
+    id: "#contacts",
     title: "Contacts",
   },
 ];

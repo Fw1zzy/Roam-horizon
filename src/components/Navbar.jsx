@@ -20,38 +20,33 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <button type="button" className=
-      "bg-white text-black py-2 px-4 rounded-3xl font-poppins font-normal md:flex hidden justify-end items-center"
+      <button type="button" className="bg-white text-black py-2 px-4 rounded-3xl font-poppins font-normal md:flex hidden justify-end items-center"
       >Register Now</button>
-      
-      <div className="md:hidden flex flex-1 justify-end items-center z-[99]">
+
+      <div className="sm:hidden flex flex-1 justify-end items-center z-[99]">
         <img src={toggle ? close : menu} 
           alt="menu"
-          className="w-[30px] h-[30px] object-contain"
+          className="w-[30px] h-[30px] object-contain "
           onClick={() => setToggle((prev => !prev))}
         />
       </div>
 
-      <div className={`${toggle ? 'flex' : 'hidden'} 
-      bg-green-gradient absolute p-10 my-2 w-full rounded-md sidebar flex-col z-[98]
+      <div className={`${toggle ? 'flex' : 'hidden'} absolute top-0 right-0 left-0 p-7 my-2 min-w-[140px] bg-green-gradient rounded-md sidebar flex-col z-[10]
       `}> 
-
-      <ul className="list-none flex flex-col justify-center items-center mt-[3rem]">
+        <ul className="list-none flex flex-col justify-center items-center mt-[3rem]">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-normal cursor-pointer text=[18px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
+                  className={`font-poppins font-semibold cursor-pointer text=[18px] dark:text-slate-100 ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} textcolor1`}
                 >
-                  <a className={`#${nav.id}`}>
+                  <a href={nav.id} className="nav-icon">
                     {nav.title}
                   </a>
                 </li>
               ))}
-      </ul>
-            <button type="button" className=
-            "bg-white text-black py-2 px-4 rounded-3xl font-poppins font-normal flex flex-col justify-center items-center mt-8"
-            >Register Now</button>
-
+               <button type="button" className="bg-white text-black py-2 px-4 mt-10 rounded-3xl font-poppins font-normal justify-center items-center"
+      >Register Now</button>
+        </ul>
       </div>
     </nav>
   )

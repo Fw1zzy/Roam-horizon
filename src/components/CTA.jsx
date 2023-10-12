@@ -2,7 +2,7 @@ import styles from "../styles"
 
 const CTA = () => {
   return (
-    <section className={`${styles.marginY} ${styles.marginX}`}>
+    <section className={`${styles.marginY} ${styles.marginX}`} id="contacts">
 
      <div className={`cta`}>
         <div className="flex flex-col justify-center text-start py-[4rem] px-[2.5rem]">
@@ -10,7 +10,7 @@ const CTA = () => {
             <p className="font-poppins leading-7 text-white max-ss:text-[15px]">
               We have a variety of the world's best accommodation perfect for the <br/> destination you will be traveling
             </p>
-            <button className="font-poppins text-[16px] outline-0 border-none text-black bg-white my-[2rem] py-[10px] px-[20px] w-[150px] rounded-3xl ">Contact now</button>
+            <button className="icon font-poppins text-[16px] outline-0 border-none text-black bg-white my-[2rem] py-[10px] px-[20px] w-[150px] rounded-3xl ">Contact now</button>
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ import { Navbar, Hero, Exclusives, Trending, CTA, GetStarted, Footer,} from './c
 
 const App = () => {
   return (
-    <div className="w-full overflow-hidden">
+    <div className="w-full">
     
       <div className='background'>
         <div className={`${styles.marginX} ${styles.flexCenter}`}>
@@ -23,14 +23,12 @@ const App = () => {
       <div className={`${styles.marginX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Exclusives />
-          <Trending />
-          <CTA />
           <GetStarted />
+          <CTA />
+          <Trending />
         </div>
       </div>
-      <div className={`${styles.boxWidth}`}>
       <Footer />
-      </div>
     </div>
   )
 }
