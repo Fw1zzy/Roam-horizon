@@ -1,4 +1,4 @@
-import background from './background.jpg';
+import background from './background.webp';
 import bedroom from './bedroom.jpg';
 import close from './close.svg';
 import dubai from './dubai.png';
